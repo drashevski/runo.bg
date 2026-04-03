@@ -1,0 +1,5 @@
+# Claude Code configuration
+.claude/
+
+# Design source files
+images/logo-cover/source/

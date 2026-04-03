@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Руно | Ръчно изработени изделия от природни материали</title>
+  <meta name="description" content="Ръчно изработени изделия от дърво, вълна, икони и бижута от природни материали. Handmade crafts from natural materials.">
+  <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">
+        <img src="images/logo-cover/runo-6.png" alt="Руно" class="logo-img">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-bg="За нас" data-en="About">За нас</a></li>
+        <li><a href="#gallery" data-bg="Галерия" data-en="Gallery">Галерия</a></li>
+        <li><a href="#contact" data-bg="Контакт" data-en="Contact">Контакт</a></li>
+        <li>
+          <a href="https://www.etsy.com/" target="_blank" rel="noopener" class="nav-etsy" data-bg="Магазин" data-en="Shop">
+            Магазин
+          </a>
+        </li>
+        <li>
+          <button class="lang-btn" onclick="toggleLang()" title="Switch language">
+            EN
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <img src="images/logo-cover/runo-6.png" alt="Руно" class="hero-logo">
+      <h1 class="hero-title">Руно</h1>
+      <p class="hero-subtitle" data-bg="Ръчно изработени изделия от природни материали" data-en="Handmade crafts from natural materials">
+        Ръчно изработени изделия от природни материали
+      </p>
+      <a href="#gallery" class="btn" data-bg="Разгледай" data-en="Explore">Разгледай</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title" data-bg="За нас" data-en="About us">За нас</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/logo-cover/FBCOVER-1.png" alt="Руно - handmade crafts">
+        </div>
+        <div class="about-text">
+          <p data-bg="Здравейте! Аз съм майстор на ръчно изработени изделия от природни материали — дърво, вълна, бижута и икони. Всяко изделие е уникално, създадено с много любов и внимание към детайла."
+             data-en="Hello! I am a maker of handmade crafts from natural materials — wood, wool, jewelry, and icons. Each piece is unique, created with great love and attention to detail.">
+            Здравейте! Аз съм майстор на ръчно изработени изделия от природни материали — дърво, вълна, бижута и икони. Всяко изделие е уникално, създадено с много любов и внимание към детайла.
+          </p>
+          <p data-bg="Използвам само естествени материали, вдъхновени от българската природа и традиции. Вярвам, че ръчно направените неща носят топлина и душа, каквато масовото производство не може да предложи."
+             data-en="I use only natural materials, inspired by Bulgarian nature and traditions. I believe that handmade things carry warmth and soul that mass production cannot offer.">
+            Използвам само естествени материали, вдъхновени от българската природа и традиции. Вярвам, че ръчно направените неща носят топлина и душа, каквато масовото производство не може да предложи.
+          </p>
+          <p data-bg="Базирана съм в София, България, и изпращам поръчки в цяла Европа."
+             data-en="Based in Sofia, Bulgaria, I ship orders across Europe.">
+            Базирана съм в София, България, и изпращам поръчки в цяла Европа.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title" data-bg="Галерия" data-en="Gallery">Галерия</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/sample-products/koseto-boseto-1.jpg" alt="Wool sculpture - fox and crow" loading="lazy">
+          <div class="gallery-caption" data-bg="Фигури от вълна" data-en="Wool sculptures">Фигури от вълна</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/sample-products/ikona.jpg" alt="Hand-painted icon of St. George" loading="lazy">
+          <div class="gallery-caption" data-bg="Ръчно рисувани икони" data-en="Hand-painted icons">Ръчно рисувани икони</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/sample-products/media-13.jpg" alt="Martenitsi - traditional Bulgarian spring decorations" loading="lazy">
+          <div class="gallery-caption" data-bg="Мартеници и украшения" data-en="Martenitsi &amp; decorations">Мартеници и украшения</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/sample-products/media-10.jpg" alt="Acorn pendants from natural materials" loading="lazy">
+          <div class="gallery-caption" data-bg="Бижута от природни материали" data-en="Natural material jewelry">Бижута от природни материали</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/sample-products/hat.jpg" alt="Felted wool hat with mushroom decoration" loading="lazy">
+          <div class="gallery-caption" data-bg="Шапки от филц" data-en="Felted hats">Шапки от филц</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/sample-products/small-basket.jpg" alt="Handwoven miniature basket" loading="lazy">
+          <div class="gallery-caption" data-bg="Ръчно плетени кошнички" data-en="Handwoven baskets">Ръчно плетени кошнички</div>
+        </div>
+      </div>
+      <div class="gallery-cta">
+        <a href="https://www.etsy.com/" target="_blank" rel="noopener" class="btn" data-bg="Виж всички в Etsy магазина" data-en="See all in the Etsy shop">
+          Виж всички в Etsy магазина
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title" data-bg="Свържете се с нас" data-en="Get in touch">Свържете се с нас</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p data-bg="Имате въпрос или искате да поръчате нещо специално? Пишете ни!"
+             data-en="Have a question or want to order something special? Write to us!">
+            Имате въпрос или искате да поръчате нещо специално? Пишете ни!
+          </p>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span data-bg="София, България" data-en="Sofia, Bulgaria">София, България</span>
+          </div>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            <a href="mailto:runo_wool@gmail.com">runo_wool@gmail.com</a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://www.etsy.com/" target="_blank" rel="noopener" aria-label="Etsy Shop" title="Etsy Shop">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8.559 3.006c-.138.005-.276.092-.276.258v.09c0 .085.023.161.069.236.046.072.138.174.276.312.276.276.414.552.414.828v2.07c0 .276-.138.414-.414.414H6.006c-.276 0-.414.138-.414.414v1.242c0 .276.138.414.414.414h2.622c.276 0 .414.138.414.414v7.452c0 .552.069 1.035.207 1.449.138.414.345.759.621 1.035.276.276.621.483 1.035.621.414.138.897.207 1.449.207h2.484c.276 0 .414-.138.414-.414v-1.242c0-.276-.138-.414-.414-.414h-1.242c-.552 0-.828-.276-.828-.828V9.699c0-.276.138-.414.414-.414h2.622c.276 0 .414-.138.414-.414V7.629c0-.276-.138-.414-.414-.414h-2.622c-.276 0-.414-.138-.414-.414V3.264c0-.166-.138-.258-.276-.258h-1.932z"/></svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name" data-bg="Име" data-en="Name">Име</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" data-bg="Имейл" data-en="Email">Имейл</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message" data-bg="Съобщение" data-en="Message">Съобщение</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn" data-bg="Изпрати" data-en="Send">Изпрати</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="images/logo-cover/runo-6.png" alt="Руно" class="footer-logo">
+        <p data-bg="Ръчно изработени изделия от природни материали" data-en="Handmade crafts from natural materials">
+          Ръчно изработени изделия от природни материали
+        </p>
+      </div>
+      <div class="footer-links">
+        <div class="social-links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="https://www.etsy.com/" target="_blank" rel="noopener" aria-label="Etsy">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8.559 3.006c-.138.005-.276.092-.276.258v.09c0 .085.023.161.069.236.046.072.138.174.276.312.276.276.414.552.414.828v2.07c0 .276-.138.414-.414.414H6.006c-.276 0-.414.138-.414.414v1.242c0 .276.138.414.414.414h2.622c.276 0 .414.138.414.414v7.452c0 .552.069 1.035.207 1.449.138.414.345.759.621 1.035.276.276.621.483 1.035.621.414.138.897.207 1.449.207h2.484c.276 0 .414-.138.414-.414v-1.242c0-.276-.138-.414-.414-.414h-1.242c-.552 0-.828-.276-.828-.828V9.699c0-.276.138-.414.414-.414h2.622c.276 0 .414-.138.414-.414V7.629c0-.276-.138-.414-.414-.414h-2.622c-.276 0-.414-.138-.414-.414V3.264c0-.166-.138-.258-.276-.258h-1.932z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Руно. <span data-bg="Всички права запазени." data-en="All rights reserved.">Всички права запазени.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Language toggle
+    let currentLang = 'bg';
+
+    function toggleLang() {
+      currentLang = currentLang === 'bg' ? 'en' : 'bg';
+      const btn = document.querySelector('.lang-btn');
+      btn.textContent = currentLang === 'bg' ? 'EN' : 'BG';
+      document.documentElement.lang = currentLang;
+
+      document.querySelectorAll('[data-bg][data-en]').forEach(el => {
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+          el.placeholder = el.getAttribute('data-' + currentLang);
+        } else {
+          el.textContent = el.getAttribute('data-' + currentLang);
+        }
+      });
+    }
+
+    // Mobile menu toggle
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+      document.querySelector('.nav-toggle').classList.toggle('active');
+    }
+
+    // Close menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('navLinks').classList.remove('active');
+        document.querySelector('.nav-toggle').classList.remove('active');
+      });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Lightbox
+    document.querySelectorAll('.gallery-item img').forEach(img => {
+      img.addEventListener('click', () => {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    function closeLightbox(event) {
+      if (event && event.target === document.getElementById('lightboxImg')) return;
+      const lightbox = document.getElementById('lightbox');
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
